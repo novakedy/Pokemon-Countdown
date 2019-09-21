@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "agenric.cocoapods-snippets",
+    "sidneys1.gitconfig",
+    "codezombiech.gitignore",
+    "orta.vscode-ios-common-files",
+    "xabikos.javascriptsnippets",
+    "orta.vscode-react-native-storybooks",
+    "vsmobile.vscode-react-native",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "esbenp.prettier-vscode",
+    "infeng.vscode-react-typescript",
+    "miclo.sort-typescript-imports",
+    "rbbit.typescript-hero",
+    "msjsdiag.vscode-react-native",
+    "2gua.rainbow-brackets",
+    "naumovs.color-highlight"
+  ]
+}
