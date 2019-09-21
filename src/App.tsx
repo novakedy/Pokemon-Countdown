@@ -108,8 +108,8 @@ export default class LoginScreen extends Component<IProps, IState> {
 					</TouchableOpacity>
 
 					<Countdown
-						digitStyle={{ backgroundColor: '#E65A41' }}
-						digitTxtStyle={{ color: 'white' }}
+						digitStyle={styles.countdownDigits}
+						digitTxtStyle={styles.countdownText}
 						until={remainingSeconds}
 						onFinish={this._countdownDidFinish}
 						size={26}
@@ -287,6 +287,12 @@ const styles = StyleSheet.create({
 	},
 	container: {
 		flex: 1,
+	},
+	countdownDigits: {
+		backgroundColor: '#E65A41',
+	},
+	countdownText: {
+		color: 'white',
 	},
 	loadingAnimation: {
 		height: 200,
