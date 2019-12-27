@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009A4BB123B5AEAC009C6482 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		00CCD70F233689E6004E4731 /* pokemon-data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 00CCD70E233689E6004E4731 /* pokemon-data.csv */; };
 		00FCE7842336C74300107D92 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FCE7822336C74300107D92 /* Pokemon Hollow.ttf */; };
 		00FCE7852336C74300107D92 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FCE7832336C74300107D92 /* Pokemon Solid.ttf */; };
@@ -170,6 +171,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = DTF7SBJ8WT;
 						LastSwiftMigration = 1100;
 					};
 				};
@@ -198,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009A4BB123B5AEAC009C6482 /* main.jsbundle in Resources */,
 				00FCE7852336C74300107D92 /* Pokemon Solid.ttf in Resources */,
 				00FCE7842336C74300107D92 /* Pokemon Hollow.ttf in Resources */,
 				00CCD70F233689E6004E4731 /* pokemon-data.csv in Resources */,
@@ -371,6 +374,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = DTF7SBJ8WT;
 				INFOPLIST_FILE = PokemonCountdown/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -379,7 +383,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmaccallum.pokemoncountdown;
 				PRODUCT_NAME = PokemonCountdown;
 				SWIFT_OBJC_BRIDGING_HEADER = "PokemonCountdown-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -396,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTF7SBJ8WT;
 				INFOPLIST_FILE = PokemonCountdown/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -404,7 +409,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmaccallum.pokemoncountdown;
 				PRODUCT_NAME = PokemonCountdown;
 				SWIFT_OBJC_BRIDGING_HEADER = "PokemonCountdown-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
